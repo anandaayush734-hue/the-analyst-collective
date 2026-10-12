@@ -2,181 +2,368 @@
   "masthead": {
     "name": "The Analyst Collective",
     "tagline": "Daily research for investment banking and industrials",
-    "notice": "DEMONSTRATION CONTENT. The stories below are illustrative placeholders written to test the layout. They are not verified news. Live, sourced reporting will replace them in a later stage."
+    "notice": "Updated daily. Every story links to its original source; check the source before relying on any figure. Older demonstration editions in the Archive are marked [Demo]."
   },
   "sections": [
-    { "key": "industrials", "label": "Industrials Intelligence" },
-    { "key": "ib-deals", "label": "Investment Banking & Deals" },
-    { "key": "markets", "label": "Markets & Economy" },
-    { "key": "regulatory", "label": "Regulatory Radar" },
-    { "key": "india", "label": "India" },
-    { "key": "global", "label": "Global Affairs" },
-    { "key": "tech-ai", "label": "Technology & AI" },
-    { "key": "analysts-corner", "label": "Analyst's Corner" }
+    {
+      "key": "industrials",
+      "label": "Industrials Intelligence",
+      "brief": {
+        "summary": "Industrials Intelligence tracks the companies that make, move and defend things: vehicle makers and their suppliers, the electric-vehicle ecosystem, capital goods and engineering firms, and aerospace and defence. Choose one of the four sectors below for its brief and stories.",
+        "covers": [
+          "Automobiles",
+          "Electric Vehicles",
+          "General Industrials",
+          "Aerospace & Defence"
+        ],
+        "metrics": [
+          "Order books and order inflows",
+          "Volumes, pricing and market share",
+          "EBITDA margins and input costs",
+          "Capex, capacity and localisation"
+        ],
+        "ibAngle": "Industrials are capital-heavy and cyclical, so deals often turn on order-book visibility, margin durability and the funding of new capacity."
+      }
+    },
+    {
+      "key": "ib-deals",
+      "label": "Investment Banking & Deals"
+    },
+    {
+      "key": "markets",
+      "label": "Markets & Economy"
+    },
+    {
+      "key": "regulatory",
+      "label": "Regulatory Radar"
+    },
+    {
+      "key": "india",
+      "label": "India"
+    },
+    {
+      "key": "global",
+      "label": "Global Affairs"
+    },
+    {
+      "key": "tech-ai",
+      "label": "Technology & AI"
+    },
+    {
+      "key": "analysts-corner",
+      "label": "Analyst's Corner"
+    }
   ],
   "subsections": [
-    { "key": "automobiles", "label": "Automobiles", "parent": "industrials" },
-    { "key": "ev", "label": "Electric Vehicles", "parent": "industrials" },
-    { "key": "general-industrials", "label": "General Industrials", "parent": "industrials" },
-    { "key": "aerospace-defence", "label": "Aerospace & Defence", "parent": "industrials" }
+    {
+      "key": "automobiles",
+      "label": "Automobiles",
+      "parent": "industrials",
+      "brief": {
+        "teaser": "Cars, two-wheelers, commercial vehicles, components and tyres.",
+        "summary": "Automobiles covers passenger vehicles, two- and three-wheelers, commercial vehicles, auto components and tyres, and the supply chain that connects them. Demand is cyclical and sensitive to interest rates, fuel prices, rural incomes and festive-season buying.",
+        "covers": [
+          "Passenger and commercial vehicles",
+          "Two- and three-wheelers",
+          "Auto components and tyres",
+          "OEM supply chains and exports"
+        ],
+        "metrics": [
+          "Monthly wholesale and retail volumes",
+          "Market share and pricing",
+          "EBITDA margin and raw-material costs",
+          "Capacity, launches and export mix"
+        ],
+        "players": [
+          "Maruti Suzuki",
+          "Tata Motors",
+          "Mahindra & Mahindra",
+          "Bajaj Auto",
+          "Hero MotoCorp",
+          "TVS Motor",
+          "Bosch",
+          "Samvardhana Motherson"
+        ],
+        "ibAngle": "Watch for component-maker consolidation, joint ventures with global OEMs, demergers of business lines, and IPOs of suppliers riding the volume cycle."
+      }
+    },
+    {
+      "key": "ev",
+      "label": "Electric Vehicles",
+      "parent": "industrials",
+      "brief": {
+        "teaser": "Electric two-wheelers, cars, buses, batteries and charging.",
+        "summary": "Electric Vehicles covers electric two-, three- and four-wheelers, buses and commercial EVs, plus batteries, cells, critical minerals and charging infrastructure. The sector depends heavily on policy support, battery costs and the pace of domestic manufacturing.",
+        "covers": [
+          "Electric two-, three- and four-wheelers",
+          "Electric buses and commercial EVs",
+          "Battery cells, packs and critical minerals",
+          "Charging infrastructure"
+        ],
+        "metrics": [
+          "Registrations and EV share of sales",
+          "Battery cost per kWh and localisation",
+          "Subsidy and PLI eligibility",
+          "Unit economics and cash burn"
+        ],
+        "players": [
+          "Tata Motors",
+          "Ola Electric",
+          "Ather Energy",
+          "TVS Motor",
+          "Bajaj Auto",
+          "Exide Industries",
+          "Amara Raja Energy & Mobility"
+        ],
+        "ibAngle": "EV companies raise large amounts of capital. Separate announced plants and proposed investments from capacity actually built and running."
+      }
+    },
+    {
+      "key": "general-industrials",
+      "label": "General Industrials",
+      "parent": "industrials",
+      "brief": {
+        "teaser": "Capital goods, engineering, electrical equipment and automation.",
+        "summary": "General Industrials covers capital goods, engineering and construction, electrical and power equipment, industrial machinery and automation. Revenue follows government and private capex cycles, so order books are the key forward indicator.",
+        "covers": [
+          "Capital goods and engineering",
+          "Power and electrical equipment",
+          "Industrial machinery and automation",
+          "Infrastructure equipment and services"
+        ],
+        "metrics": [
+          "Order inflow and order book cover",
+          "Execution pace and working capital",
+          "EBITDA margin and commodity costs",
+          "Government infrastructure spending"
+        ],
+        "players": [
+          "Larsen & Toubro",
+          "Siemens",
+          "ABB India",
+          "Cummins India",
+          "Thermax",
+          "CG Power",
+          "Hitachi Energy India",
+          "KEC International"
+        ],
+        "ibAngle": "Look for demergers and carve-outs, parent-company stake changes in Indian subsidiaries, and acquisitions that add technology or export reach."
+      }
+    },
+    {
+      "key": "aerospace-defence",
+      "label": "Aerospace & Defence",
+      "parent": "industrials",
+      "brief": {
+        "teaser": "Defence manufacturing, shipbuilding, aerospace and electronics.",
+        "summary": "Aerospace & Defence covers military aircraft and systems, shipbuilding, defence electronics, missiles, drones, aerospace components and space technology. Orders are lumpy and government-driven, so contract timing and execution matter more than quarterly sales.",
+        "covers": [
+          "Military aircraft, engines and MRO",
+          "Shipbuilding and naval systems",
+          "Defence electronics, missiles and drones",
+          "Aerospace components and space"
+        ],
+        "metrics": [
+          "Contracts awarded vs letters of intent vs MoUs",
+          "Order book and execution timelines",
+          "Indigenisation and export orders",
+          "Margins and cash conversion"
+        ],
+        "players": [
+          "Hindustan Aeronautics (HAL)",
+          "Bharat Electronics",
+          "Bharat Dynamics",
+          "Mazagon Dock Shipbuilders",
+          "Garden Reach Shipbuilders",
+          "Cochin Shipyard",
+          "Data Patterns",
+          "Solar Industries"
+        ],
+        "ibAngle": "Government stake sales, private-sector entry, technology-transfer joint ventures and export deals shape valuations. Revenue is recognised only as contracts are executed."
+      }
+    }
   ],
   "editions": [
     {
       "date": "2026-10-12",
       "articles": [
         {
-          "id": "demo-2026-10-12-001",
+          "id": "live-2026-10-12-001",
           "rank": 1,
-          "section": "industrials",
-          "subsection": "aerospace-defence",
-          "headline": "[Demo] Defence maker reports order inflow rise; execution timelines to watch",
-          "deck": "Illustrative story showing how an order-book update is presented.",
-          "status": "Contract awarded",
-          "publishedAt": "2026-10-12",
-          "eventDate": "2026-10-10",
-          "companies": ["Example Defence Ltd"],
-          "geography": "India",
-          "topics": ["Order book", "Defence procurement"],
-          "whatHappened": "A fictional listed defence company disclosed new contract awards in its exchange filing. The example is used to demonstrate layout only.",
-          "keyFacts": ["Event date: 10 Oct 2026 (demo)", "Contract value: not disclosed in this demo", "Status: contract awarded, revenue not yet recognised"],
-          "whyItMatters": "Order inflows give revenue visibility, but revenue is recognised only as execution progresses. Analysts separate awarded contracts from letters of intent and memoranda of understanding.",
-          "ibAngle": "A strong order book can support equity fundraising or a private placement. Bankers would examine margins and cash conversion before pricing.",
-          "sectorImplications": "Suppliers of components and sub-assemblies may see higher volumes. Competitors bidding for similar tenders may face tougher pricing.",
-          "source": { "name": "Demo source (placeholder)", "url": "https://www.bseindia.com" }
-        },
-        {
-          "id": "demo-2026-10-12-002",
-          "rank": 2,
           "section": "ib-deals",
-          "headline": "[Demo] Mid-cap auto components firm explores sale of non-core unit",
-          "deck": "Illustrative divestiture story for the Investment Banking & Deals section.",
-          "status": "Reported (not confirmed)",
-          "publishedAt": "2026-10-12",
-          "eventDate": "2026-10-11",
-          "companies": ["Example Auto Components Ltd"],
+          "headline": "India's Q3 dealmaking: 255 M&A deals worth $13.2 billion, a 2026 high",
+          "deck": "Private equity hit a 2026 high too, while IPOs and QIPs raised a record combined $13.8 billion.",
+          "status": "Reported (Q3 data)",
+          "publishedAt": "2026-10-08",
+          "eventDate": "2026-07-01",
+          "companies": [],
           "geography": "India",
-          "topics": ["Divestiture", "M&A"],
-          "whatHappened": "A fictional company is described as exploring a sale of a non-core business. No transaction has been announced in this demo.",
-          "keyFacts": ["Transaction value: not disclosed", "Advisers: not confirmed", "Status: exploratory, no binding offer"],
-          "whyItMatters": "Non-core divestments can simplify a balance sheet and unlock value, but they often take months to reach signing.",
-          "ibAngle": "Would typically involve a sell-side process, buyer list, and valuation using comparable multiples. Do not assume an adviser unless a reliable source confirms it.",
-          "sectorImplications": "Potential buyers include private equity funds and strategic competitors. The sale could reshape supplier relationships.",
-          "source": { "name": "Demo source (placeholder)", "url": "https://www.nseindia.com" }
+          "topics": [
+            "M&A",
+            "Private equity",
+            "IPO",
+            "QIP"
+          ],
+          "whatHappened": "Grant Thornton Bharat's Q3 2026 Dealtracker counted 696 deals worth $36.9 billion across M&A, private equity and public markets for July to September. Excluding IPOs and QIPs, there were 608 M&A and PE transactions worth $23.1 billion.",
+          "keyFacts": [
+            "M&A: 255 deals worth $13.2 billion (a 2026 high)",
+            "Private equity: 353 transactions worth $9.9 billion (a 2026 high)",
+            "IPOs: 60 raised $9 billion, the highest quarterly IPO fundraising on record",
+            "QIPs: 28 raised $4.8 billion",
+            "Leading sectors by value: energy and natural resources ($3 billion), banking and financial services (nearly $3 billion), infrastructure management ($2.8 billion)"
+          ],
+          "whyItMatters": "A strong M&A and PE market, together with record IPO fundraising, suggests sponsors and companies are finding buyers and public investors. Figures come from one data provider and may be revised.",
+          "ibAngle": "Record IPO volumes point to a busy pipeline for bookbuilding and listing mandates. High PE activity means more sell-side processes and secondary exits.",
+          "sectorImplications": "Energy, banking and infrastructure management led deal value. Competitors in those sectors should expect more valuation benchmarking and consolidation.",
+          "source": {
+            "name": "Business Standard (Grant Thornton Bharat Q3 2026 Dealtracker)",
+            "url": "https://business-standard.com/industry/news/india-s-dealmaking-broadens-255-m-as-worth-13-2-bn-in-q3-of-2026-126100800628_1.html"
+          }
         },
         {
-          "id": "demo-2026-10-12-003",
+          "id": "live-2026-10-12-002",
+          "rank": 2,
+          "section": "industrials",
+          "subsection": "automobiles",
+          "headline": "Indian auto retail sales rise 31.82% in September, the best September for passenger vehicles",
+          "deck": "Growth was partly flattered by a weak base; FADA says underlying growth over the first five months was about 17%.",
+          "status": "Completed (monthly data)",
+          "publishedAt": "2026-10-06",
+          "eventDate": "2026-09-30",
+          "companies": [],
+          "geography": "India",
+          "topics": [
+            "Auto sales",
+            "Volumes",
+            "EV share"
+          ],
+          "whatHappened": "Total automobile retail sales in September 2026 were 2,536,920 units, up 31.82% year on year, according to FADA data reported by Business Standard. Passenger vehicles reached 427,213 units, up 32.1%, described as the best-ever September.",
+          "keyFacts": [
+            "Two-wheelers: 1,790,188 units, up 33.08%",
+            "Passenger vehicles: 427,213 units, up 32.1%",
+            "Commercial vehicles: 103,557 units, up 37.62%",
+            "Three-wheelers: 132,570 units, up 22.25%",
+            "PV fuel mix: petrol 41.27%, alternative fuels 41% (EV 8.45%, CNG 23.11%, hybrid 9.44%)",
+            "Underlying growth for the first five months of FY27: about 17%, excluding September"
+          ],
+          "whyItMatters": "The headline growth is inflated by a low base: buyers delayed purchases before GST 2.0 took effect on 22 September 2025. The underlying trend is still healthy, but less dramatic.",
+          "ibAngle": "Strong volumes support valuations for listed OEMs ahead of any IPO or stake sale. Analysts will judge whether this growth lasts beyond the festive season.",
+          "sectorImplications": "Dealers flagged further price increases as their main risk for the coming quarter. Suppliers should watch for pricing pressure as demand stays strong.",
+          "source": {
+            "name": "Business Standard (FADA September 2026 data)",
+            "url": "https://www.business-standard.com/industry/auto/automobile-retail-sales-surge-31-82-in-september-on-strong-demand-126100600145_1.html"
+          }
+        },
+        {
+          "id": "live-2026-10-12-003",
           "rank": 3,
           "section": "industrials",
-          "subsection": "ev",
-          "headline": "[Demo] Battery cell maker announces proposed plant; construction not yet started",
-          "deck": "Illustrative example of distinguishing a proposed investment from a completed project.",
-          "status": "Proposed",
-          "publishedAt": "2026-10-12",
-          "eventDate": "2026-10-09",
-          "companies": ["Example Battery Co"],
+          "subsection": "general-industrials",
+          "headline": "Capital goods order inflows soften in Q2 as commodity costs rise",
+          "deck": "Brokers expect margin pressure from zinc, copper and aluminium inflation, partly offset by price hikes.",
+          "status": "Analysis (estimate)",
+          "publishedAt": "2026-10-06",
+          "eventDate": "2026-09-30",
+          "companies": [
+            "L&T",
+            "ABB India",
+            "Siemens",
+            "Thermax",
+            "Cummins",
+            "BEML",
+            "KEC International",
+            "Hitachi Energy",
+            "GE Vernova"
+          ],
           "geography": "India",
-          "topics": ["Battery manufacturing", "Capex"],
-          "whatHappened": "A fictional battery company announced a plan for a new cell plant. The plan remains subject to approvals and funding.",
-          "keyFacts": ["Capacity: not disclosed in this demo", "Status: proposed, not commissioned", "Timeline: to be confirmed"],
-          "whyItMatters": "Battery capacity is central to EV unit economics. Announced capacity often differs from capacity actually built and running.",
-          "ibAngle": "Large capex plans may require project finance, a rights issue, or incentive-linked funding. Watch for the funding structure.",
-          "sectorImplications": "Carmakers and cell suppliers may secure supply, while critical mineral demand could rise.",
-          "source": { "name": "Demo source (placeholder)", "url": "https://www.sebi.gov.in" }
+          "topics": [
+            "Order book",
+            "Capex",
+            "Commodity costs",
+            "Margins"
+          ],
+          "whatHappened": "Business Standard reports that cumulative Q2 FY27 order inflows for major capital goods companies, excluding L&T, may be worth about Rs 35,000 crore, down around 10% year on year. This is an estimate, not a reported total. L&T reported inflows of Rs 1 trillion.",
+          "keyFacts": [
+            "Estimated inflows excluding L&T: about Rs 35,000 crore, down about 10% YoY (estimate)",
+            "L&T reported inflows: Rs 1 trillion in Q2 FY27",
+            "Power T&D order book: up 120% YoY to Rs 13,700 crore",
+            "Zinc, copper, aluminium and pig iron rose by double digits quarter on quarter in Q2 FY27"
+          ],
+          "whyItMatters": "Falling orders and rising input costs together can compress margins. Investors should compare order inflows with execution timelines and pricing power.",
+          "ibAngle": "Companies with weak order momentum or thin margins may see pressure on valuations, which can affect IPO pricing or sale processes.",
+          "sectorImplications": "Power transmission and distribution is growing fast, while general capital goods face softer orders. Inflation affects all manufacturers that buy raw metals.",
+          "source": {
+            "name": "Business Standard (Devangshu Datta, capital goods Q2 FY27 analysis)",
+            "url": "https://business-standard.com/amp/markets/news/soft-q2-order-inflows-commodity-inflation-weigh-on-capital-goods-firms-126100601103_1.html"
+          }
         },
         {
-          "id": "demo-2026-10-12-004",
+          "id": "live-2026-10-12-004",
           "rank": 4,
-          "section": "regulatory",
-          "headline": "[Demo] Regulator issues consultation paper on disclosure norms",
-          "deck": "Illustrative regulatory item showing the five-point analysis format.",
-          "status": "Proposed (consultation)",
-          "publishedAt": "2026-10-12",
-          "eventDate": "2026-10-12",
-          "companies": [],
+          "section": "industrials",
+          "subsection": "aerospace-defence",
+          "headline": "Defence order inflows rise 19% after adjusting for a large base-period order",
+          "deck": "Headline comparisons look weaker because of a Rs 62,300 crore HAL order in the base quarter.",
+          "status": "Reported (base-adjusted)",
+          "publishedAt": "2026-10-06",
+          "eventDate": "2026-09-30",
+          "companies": [
+            "HAL",
+            "Bharat Dynamics",
+            "Bharat Electronics",
+            "Garden Reach Shipbuilders",
+            "Zen Technologies",
+            "Solar Industries"
+          ],
           "geography": "India",
-          "topics": ["Disclosure", "Corporate governance"],
-          "whatHappened": "A fictional consultation paper proposes changes to disclosure requirements for listed companies. Comments are invited before any change takes effect.",
-          "keyFacts": ["Change status: proposed, not effective", "Effective date: not set", "Affected: listed companies"],
-          "whyItMatters": "Consultation papers signal direction. Final rules may differ in timing and scope.",
-          "ibAngle": "Disclosure changes affect deal timelines, prospectus content, and due diligence scope.",
-          "sectorImplications": "Companies planning fundraising or listings should track the consultation outcome.",
-          "source": { "name": "Demo source (placeholder)", "url": "https://www.sebi.gov.in" }
+          "topics": [
+            "Defence procurement",
+            "Order book"
+          ],
+          "whatHappened": "Defence order inflows rose 19% year on year to Rs 8,600 crore, once a base effect from a Q2 FY26 LCA order to HAL worth Rs 62,300 crore is removed.",
+          "keyFacts": [
+            "Adjusted defence inflows: Rs 8,600 crore, up 19% YoY",
+            "Base-period LCA order to HAL: Rs 62,300 crore",
+            "Figures are from a Business Standard analysis; the adjusted growth is the article's own calculation"
+          ],
+          "whyItMatters": "Unadjusted figures would show a sharp fall and mislead investors. Always check for one-off orders in the base period.",
+          "ibAngle": "Defence names with strong order books are attractive for listings and private placements. Order timing affects deal pricing.",
+          "sectorImplications": "Defence suppliers and shipbuilders may benefit from pipeline visibility, though execution timelines still matter for margins.",
+          "source": {
+            "name": "Business Standard (Devangshu Datta, capital goods Q2 FY27 analysis)",
+            "url": "https://business-standard.com/amp/markets/news/soft-q2-order-inflows-commodity-inflation-weigh-on-capital-goods-firms-126100601103_1.html"
+          }
         },
         {
-          "id": "demo-2026-10-12-005",
+          "id": "live-2026-10-12-005",
           "rank": 5,
           "section": "markets",
-          "headline": "[Demo] Central bank holds rates; markets weigh inflation outlook",
-          "deck": "Illustrative macro story for Markets & Economy.",
-          "status": "Completed (decision taken)",
-          "publishedAt": "2026-10-12",
-          "eventDate": "2026-10-08",
+          "headline": "Fed and ECB minutes due this week; markets scale back near-term rate-hike bets",
+          "deck": "A soft US jobs report reduced urgency for an October Fed hike, while euro-area inflation rose faster than forecast.",
+          "status": "Expectations (not decision)",
+          "publishedAt": "2026-10-04",
+          "eventDate": "2026-10-04",
           "companies": [],
           "geography": "Global",
-          "topics": ["Interest rates", "Inflation"],
-          "whatHappened": "A fictional central bank kept its policy rate unchanged and signalled data dependence.",
-          "keyFacts": ["Policy rate: unchanged (demo)", "Next meeting: to be confirmed"],
-          "whyItMatters": "Rate expectations affect valuations, borrowing costs, and the timing of IPOs and bond issues.",
-          "ibAngle": "Issuers often accelerate or delay capital markets activity depending on rate direction.",
-          "sectorImplications": "Rate-sensitive sectors such as capital goods and real estate react most.",
-          "source": { "name": "Demo source (placeholder)", "url": "https://www.rbi.org.in" }
-        },
-        {
-          "id": "demo-2026-10-12-006",
-          "rank": 6,
-          "section": "global",
-          "headline": "[Demo] New tariffs on industrial inputs prompt supply-chain review",
-          "deck": "Illustrative trade story for Global Affairs.",
-          "status": "Announced (not yet effective)",
-          "publishedAt": "2026-10-12",
-          "eventDate": "2026-10-07",
-          "companies": [],
-          "geography": "Global",
-          "topics": ["Trade", "Tariffs", "Supply chain"],
-          "whatHappened": "A fictional government announced tariffs on certain industrial inputs, effective from a future date.",
-          "keyFacts": ["Effective date: to be confirmed (demo)", "Status: announced, not yet effective"],
-          "whyItMatters": "Input tariffs raise costs for manufacturers that rely on imports, and can shift sourcing decisions.",
-          "ibAngle": "Companies may need to reassess margins in valuation models and in any pending deal.",
-          "sectorImplications": "Domestic producers may benefit, while importers face margin pressure.",
-          "source": { "name": "Demo source (placeholder)", "url": "https://www.wto.org" }
-        },
-        {
-          "id": "demo-2026-10-12-007",
-          "rank": 7,
-          "section": "tech-ai",
-          "headline": "[Demo] Industrial automation firm launches AI-based maintenance platform",
-          "deck": "Illustrative product story for Technology & AI.",
-          "status": "Completed (launched)",
-          "publishedAt": "2026-10-12",
-          "eventDate": "2026-10-11",
-          "companies": ["Example Automation Pvt Ltd"],
-          "geography": "Global",
-          "topics": ["Automation", "AI"],
-          "whatHappened": "A fictional automation company launched a software platform for predictive maintenance of factory equipment.",
-          "keyFacts": ["Launch status: completed (demo)", "Financial impact: not disclosed"],
-          "whyItMatters": "Recurring software revenue can improve margin quality compared with one-time equipment sales.",
-          "ibAngle": "Software-led industrial businesses often attract private equity interest and command higher multiples.",
-          "sectorImplications": "Other machinery makers may need similar offerings to keep pace.",
-          "source": { "name": "Demo source (placeholder)", "url": "https://www.bseindia.com" }
-        },
-        {
-          "id": "demo-2026-10-12-008",
-          "rank": 8,
-          "section": "analysts-corner",
-          "headline": "[Demo] Reading an order book: what to check beyond the headline number",
-          "deck": "A sample analyst note explaining how to interpret order-book disclosures.",
-          "status": "Analysis",
-          "publishedAt": "2026-10-12",
-          "eventDate": "2026-10-12",
-          "companies": [],
-          "geography": "India",
-          "topics": ["Analysis", "Order book"],
-          "whatHappened": "This sample note explains how to read an order book, including execution timelines, client concentration, and margin profile.",
-          "keyFacts": ["Type: analytical commentary", "Source: analyst's own framework (demo)"],
-          "whyItMatters": "A large headline order book can hide slow execution or thin margins.",
-          "ibAngle": "Order-book quality affects how bankers present growth stories in offering documents.",
-          "sectorImplications": "Peers can be compared on order-book cover, which is order book divided by annual revenue.",
-          "source": { "name": "Analyst commentary (demo)", "url": "https://www.bseindia.com" }
+          "topics": [
+            "Interest rates",
+            "Inflation",
+            "Central banks"
+          ],
+          "whatHappened": "A Bloomberg report carried by Business Standard says the Fed's September minutes and the ECB's account of its 9–10 September meeting are due this week. Investors have reduced expectations for an October Fed hike after weak jobs data.",
+          "keyFacts": [
+            "Next Fed meeting: 27–28 October 2026",
+            "Euro-area inflation accelerated in September by more than forecast, mainly from energy costs",
+            "Investors see very low chances of an October ECB hike",
+            "Bloomberg Economics: the hurdle for an October Fed hike is now high; a December hike remains possible"
+          ],
+          "whyItMatters": "Rate expectations drive valuations, borrowing costs and the timing of IPOs and bond issues.",
+          "ibAngle": "Issuers may time IPOs, bond issues and refinancing around the Fed meeting if rate expectations keep moving.",
+          "sectorImplications": "Rate-sensitive sectors such as capital goods and real estate react most to changes in rate expectations.",
+          "source": {
+            "name": "Business Standard (Bloomberg report)",
+            "url": "https://www.business-standard.com/world-news/fed-ecb-minutes-to-show-inflation-fears-as-near-term-rate-hike-bets-fade-126100400046_1.html"
+          }
         }
       ]
     },
@@ -193,15 +380,26 @@
           "status": "Completed (reported)",
           "publishedAt": "2026-10-11",
           "eventDate": "2026-10-10",
-          "companies": ["Example Motors Ltd"],
+          "companies": [
+            "Example Motors Ltd"
+          ],
           "geography": "India",
-          "topics": ["Volumes", "Margins"],
+          "topics": [
+            "Volumes",
+            "Margins"
+          ],
           "whatHappened": "A fictional carmaker reported higher domestic volumes and lower EBITDA margin for the quarter.",
-          "keyFacts": ["Volume growth: shown as demo figure", "EBITDA margin: lower year on year (demo)"],
+          "keyFacts": [
+            "Volume growth: shown as demo figure",
+            "EBITDA margin: lower year on year (demo)"
+          ],
           "whyItMatters": "Volume growth without margin expansion suggests discounting or higher input costs.",
           "ibAngle": "Margin trends shape valuation multiples used in IPO pricing and merger analysis.",
           "sectorImplications": "Suppliers face the same input cost trend, and dealers see inventory effects.",
-          "source": { "name": "Demo source (placeholder)", "url": "https://www.bseindia.com" }
+          "source": {
+            "name": "Demo source (placeholder)",
+            "url": "https://www.bseindia.com"
+          }
         },
         {
           "id": "demo-2026-10-11-002",
@@ -212,15 +410,27 @@
           "status": "Completed",
           "publishedAt": "2026-10-11",
           "eventDate": "2026-10-09",
-          "companies": ["Example Two-Wheelers Ltd", "Example EV Venture"],
+          "companies": [
+            "Example Two-Wheelers Ltd",
+            "Example EV Venture"
+          ],
           "geography": "India",
-          "topics": ["Joint venture", "EV"],
+          "topics": [
+            "Joint venture",
+            "EV"
+          ],
           "whatHappened": "A fictional two-wheeler maker completed the purchase of a stake in an EV venture.",
-          "keyFacts": ["Stake acquired: demo percentage", "Consideration: not disclosed"],
+          "keyFacts": [
+            "Stake acquired: demo percentage",
+            "Consideration: not disclosed"
+          ],
           "whyItMatters": "Joint ventures let incumbents learn EV technology without full balance-sheet exposure.",
           "ibAngle": "Such deals are often structured with staged funding and put and call options.",
           "sectorImplications": "Other incumbents may seek similar partnerships.",
-          "source": { "name": "Demo source (placeholder)", "url": "https://www.nseindia.com" }
+          "source": {
+            "name": "Demo source (placeholder)",
+            "url": "https://www.nseindia.com"
+          }
         },
         {
           "id": "demo-2026-10-11-003",
@@ -233,16 +443,268 @@
           "eventDate": "2026-10-11",
           "companies": [],
           "geography": "India",
-          "topics": ["Industrial policy", "Incentives"],
+          "topics": [
+            "Industrial policy",
+            "Incentives"
+          ],
           "whatHappened": "A fictional ministry announced an incentive scheme for domestic manufacturing of components. Detailed guidelines are pending.",
-          "keyFacts": ["Status: announced", "Guidelines: pending (demo)"],
+          "keyFacts": [
+            "Status: announced",
+            "Guidelines: pending (demo)"
+          ],
           "whyItMatters": "Incentives are often linked to sales or investment thresholds, which determine who benefits.",
           "ibAngle": "Incentive-backed capacity can improve the investment case for capex-heavy listed companies.",
           "sectorImplications": "Global component suppliers may localise production to qualify.",
-          "source": { "name": "Demo source (placeholder)", "url": "https://www.india.gov.in" }
+          "source": {
+            "name": "Demo source (placeholder)",
+            "url": "https://www.india.gov.in"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "articles": [
+        {
+          "id": "demo-2026-10-12-001",
+          "rank": 1,
+          "section": "industrials",
+          "subsection": "aerospace-defence",
+          "headline": "[Demo] Defence maker reports order inflow rise; execution timelines to watch",
+          "deck": "Illustrative story showing how an order-book update is presented.",
+          "status": "Contract awarded",
+          "publishedAt": "2026-10-12",
+          "eventDate": "2026-10-10",
+          "companies": [
+            "Example Defence Ltd"
+          ],
+          "geography": "India",
+          "topics": [
+            "Order book",
+            "Defence procurement"
+          ],
+          "whatHappened": "A fictional listed defence company disclosed new contract awards in its exchange filing. The example is used to demonstrate layout only.",
+          "keyFacts": [
+            "Event date: 10 Oct 2026 (demo)",
+            "Contract value: not disclosed in this demo",
+            "Status: contract awarded, revenue not yet recognised"
+          ],
+          "whyItMatters": "Order inflows give revenue visibility, but revenue is recognised only as execution progresses. Analysts separate awarded contracts from letters of intent and memoranda of understanding.",
+          "ibAngle": "A strong order book can support equity fundraising or a private placement. Bankers would examine margins and cash conversion before pricing.",
+          "sectorImplications": "Suppliers of components and sub-assemblies may see higher volumes. Competitors bidding for similar tenders may face tougher pricing.",
+          "source": {
+            "name": "Demo source (placeholder)",
+            "url": "https://www.bseindia.com"
+          }
+        },
+        {
+          "id": "demo-2026-10-12-002",
+          "rank": 2,
+          "section": "ib-deals",
+          "headline": "[Demo] Mid-cap auto components firm explores sale of non-core unit",
+          "deck": "Illustrative divestiture story for the Investment Banking & Deals section.",
+          "status": "Reported (not confirmed)",
+          "publishedAt": "2026-10-12",
+          "eventDate": "2026-10-11",
+          "companies": [
+            "Example Auto Components Ltd"
+          ],
+          "geography": "India",
+          "topics": [
+            "Divestiture",
+            "M&A"
+          ],
+          "whatHappened": "A fictional company is described as exploring a sale of a non-core business. No transaction has been announced in this demo.",
+          "keyFacts": [
+            "Transaction value: not disclosed",
+            "Advisers: not confirmed",
+            "Status: exploratory, no binding offer"
+          ],
+          "whyItMatters": "Non-core divestments can simplify a balance sheet and unlock value, but they often take months to reach signing.",
+          "ibAngle": "Would typically involve a sell-side process, buyer list, and valuation using comparable multiples. Do not assume an adviser unless a reliable source confirms it.",
+          "sectorImplications": "Potential buyers include private equity funds and strategic competitors. The sale could reshape supplier relationships.",
+          "source": {
+            "name": "Demo source (placeholder)",
+            "url": "https://www.nseindia.com"
+          }
+        },
+        {
+          "id": "demo-2026-10-12-003",
+          "rank": 3,
+          "section": "industrials",
+          "subsection": "ev",
+          "headline": "[Demo] Battery cell maker announces proposed plant; construction not yet started",
+          "deck": "Illustrative example of distinguishing a proposed investment from a completed project.",
+          "status": "Proposed",
+          "publishedAt": "2026-10-12",
+          "eventDate": "2026-10-09",
+          "companies": [
+            "Example Battery Co"
+          ],
+          "geography": "India",
+          "topics": [
+            "Battery manufacturing",
+            "Capex"
+          ],
+          "whatHappened": "A fictional battery company announced a plan for a new cell plant. The plan remains subject to approvals and funding.",
+          "keyFacts": [
+            "Capacity: not disclosed in this demo",
+            "Status: proposed, not commissioned",
+            "Timeline: to be confirmed"
+          ],
+          "whyItMatters": "Battery capacity is central to EV unit economics. Announced capacity often differs from capacity actually built and running.",
+          "ibAngle": "Large capex plans may require project finance, a rights issue, or incentive-linked funding. Watch for the funding structure.",
+          "sectorImplications": "Carmakers and cell suppliers may secure supply, while critical mineral demand could rise.",
+          "source": {
+            "name": "Demo source (placeholder)",
+            "url": "https://www.sebi.gov.in"
+          }
+        },
+        {
+          "id": "demo-2026-10-12-004",
+          "rank": 4,
+          "section": "regulatory",
+          "headline": "[Demo] Regulator issues consultation paper on disclosure norms",
+          "deck": "Illustrative regulatory item showing the five-point analysis format.",
+          "status": "Proposed (consultation)",
+          "publishedAt": "2026-10-12",
+          "eventDate": "2026-10-12",
+          "companies": [],
+          "geography": "India",
+          "topics": [
+            "Disclosure",
+            "Corporate governance"
+          ],
+          "whatHappened": "A fictional consultation paper proposes changes to disclosure requirements for listed companies. Comments are invited before any change takes effect.",
+          "keyFacts": [
+            "Change status: proposed, not effective",
+            "Effective date: not set",
+            "Affected: listed companies"
+          ],
+          "whyItMatters": "Consultation papers signal direction. Final rules may differ in timing and scope.",
+          "ibAngle": "Disclosure changes affect deal timelines, prospectus content, and due diligence scope.",
+          "sectorImplications": "Companies planning fundraising or listings should track the consultation outcome.",
+          "source": {
+            "name": "Demo source (placeholder)",
+            "url": "https://www.sebi.gov.in"
+          }
+        },
+        {
+          "id": "demo-2026-10-12-005",
+          "rank": 5,
+          "section": "markets",
+          "headline": "[Demo] Central bank holds rates; markets weigh inflation outlook",
+          "deck": "Illustrative macro story for Markets & Economy.",
+          "status": "Completed (decision taken)",
+          "publishedAt": "2026-10-12",
+          "eventDate": "2026-10-08",
+          "companies": [],
+          "geography": "Global",
+          "topics": [
+            "Interest rates",
+            "Inflation"
+          ],
+          "whatHappened": "A fictional central bank kept its policy rate unchanged and signalled data dependence.",
+          "keyFacts": [
+            "Policy rate: unchanged (demo)",
+            "Next meeting: to be confirmed"
+          ],
+          "whyItMatters": "Rate expectations affect valuations, borrowing costs, and the timing of IPOs and bond issues.",
+          "ibAngle": "Issuers often accelerate or delay capital markets activity depending on rate direction.",
+          "sectorImplications": "Rate-sensitive sectors such as capital goods and real estate react most.",
+          "source": {
+            "name": "Demo source (placeholder)",
+            "url": "https://www.rbi.org.in"
+          }
+        },
+        {
+          "id": "demo-2026-10-12-006",
+          "rank": 6,
+          "section": "global",
+          "headline": "[Demo] New tariffs on industrial inputs prompt supply-chain review",
+          "deck": "Illustrative trade story for Global Affairs.",
+          "status": "Announced (not yet effective)",
+          "publishedAt": "2026-10-12",
+          "eventDate": "2026-10-07",
+          "companies": [],
+          "geography": "Global",
+          "topics": [
+            "Trade",
+            "Tariffs",
+            "Supply chain"
+          ],
+          "whatHappened": "A fictional government announced tariffs on certain industrial inputs, effective from a future date.",
+          "keyFacts": [
+            "Effective date: to be confirmed (demo)",
+            "Status: announced, not yet effective"
+          ],
+          "whyItMatters": "Input tariffs raise costs for manufacturers that rely on imports, and can shift sourcing decisions.",
+          "ibAngle": "Companies may need to reassess margins in valuation models and in any pending deal.",
+          "sectorImplications": "Domestic producers may benefit, while importers face margin pressure.",
+          "source": {
+            "name": "Demo source (placeholder)",
+            "url": "https://www.wto.org"
+          }
+        },
+        {
+          "id": "demo-2026-10-12-007",
+          "rank": 7,
+          "section": "tech-ai",
+          "headline": "[Demo] Industrial automation firm launches AI-based maintenance platform",
+          "deck": "Illustrative product story for Technology & AI.",
+          "status": "Completed (launched)",
+          "publishedAt": "2026-10-12",
+          "eventDate": "2026-10-11",
+          "companies": [
+            "Example Automation Pvt Ltd"
+          ],
+          "geography": "Global",
+          "topics": [
+            "Automation",
+            "AI"
+          ],
+          "whatHappened": "A fictional automation company launched a software platform for predictive maintenance of factory equipment.",
+          "keyFacts": [
+            "Launch status: completed (demo)",
+            "Financial impact: not disclosed"
+          ],
+          "whyItMatters": "Recurring software revenue can improve margin quality compared with one-time equipment sales.",
+          "ibAngle": "Software-led industrial businesses often attract private equity interest and command higher multiples.",
+          "sectorImplications": "Other machinery makers may need similar offerings to keep pace.",
+          "source": {
+            "name": "Demo source (placeholder)",
+            "url": "https://www.bseindia.com"
+          }
+        },
+        {
+          "id": "demo-2026-10-12-008",
+          "rank": 8,
+          "section": "analysts-corner",
+          "headline": "[Demo] Reading an order book: what to check beyond the headline number",
+          "deck": "A sample analyst note explaining how to interpret order-book disclosures.",
+          "status": "Analysis",
+          "publishedAt": "2026-10-12",
+          "eventDate": "2026-10-12",
+          "companies": [],
+          "geography": "India",
+          "topics": [
+            "Analysis",
+            "Order book"
+          ],
+          "whatHappened": "This sample note explains how to read an order book, including execution timelines, client concentration, and margin profile.",
+          "keyFacts": [
+            "Type: analytical commentary",
+            "Source: analyst's own framework (demo)"
+          ],
+          "whyItMatters": "A large headline order book can hide slow execution or thin margins.",
+          "ibAngle": "Order-book quality affects how bankers present growth stories in offering documents.",
+          "sectorImplications": "Peers can be compared on order-book cover, which is order book divided by annual revenue.",
+          "source": {
+            "name": "Analyst commentary (demo)",
+            "url": "https://www.bseindia.com"
+          }
         }
       ]
     }
   ]
 }
-
